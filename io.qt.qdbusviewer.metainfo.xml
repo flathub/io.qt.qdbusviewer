@@ -14,7 +14,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>The Main Window</caption>
-      <image type="source">https://raw.githubusercontent.com/JakobDev/flathub/5df144729039a83d41d5c3e285e8d090884564a7/Screenshots/MainWindow.png</image>
+      <image type="source">https://github.com/flathub/io.qt.qdbusviewer/blob/5df144729039a83d41d5c3e285e8d090884564a7/Screenshots/MainWindow.png?raw=true</image>
     </screenshot>
   </screenshots>
   <releases>
