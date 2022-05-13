@@ -22,6 +22,8 @@
   </releases>
   <url type="homepage">https://www.qt.io/</url>
   <url type="bugtracker">https://bugreports.qt.io</url>
+  <url type="vcs-browser">https://code.qt.io/cgit/qt/qttools.git/tree/src/qdbus/qdbusviewer</url>
+  <url type="contribute">https://www.qt.io/community/contribute-to-qt</url>
   <categories>
     <category>Development</category>
     <category>Debugger</category>
