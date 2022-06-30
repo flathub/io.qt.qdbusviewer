@@ -8,6 +8,7 @@
   <launchable type="desktop-id">io.qt.qdbusviewer.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-3.0</project_license>
+  <project_group>Qt</project_group>
   <description>
     <p>The Qt D-Bus Viewer is a tool that lets you introspect D-Bus objects and messages. You can choose between the system bus and the session bus.</p>
   </description>
