@@ -1,6 +1,6 @@
 app-id: io.qt.qdbusviewer
 runtime: org.kde.Sdk
-runtime-version: "6.3"
+runtime-version: "6.4"
 sdk: org.kde.Sdk
 command: qdbusviewer
 finish-args:
@@ -15,11 +15,11 @@ modules:
   - name: linguist
     buildsystem: simple
     build-commands:
-      - mkdir -p /app/bin
-      - ln -s /usr/bin/qdbusviewer /app/bin/qdbusviewer
-      - install -Dm644 io.qt.qdbusviewer.png /app/share/icons/hicolor/128x128/apps/io.qt.qdbusviewer.png
-      - install -Dm644 io.qt.qdbusviewer.desktop /app/share/applications/io.qt.qdbusviewer.desktop
-      - install -Dm644 io.qt.qdbusviewer.metainfo.xml /app/share/metainfo/io.qt.qdbusviewer.metainfo.xml
+      - mkdir -p $FLATPAK_DEST/bin
+      - ln -s /usr/bin/qdbusviewer $FLATPAK_DEST/bin/qdbusviewer
+      - install -Dm644 io.qt.qdbusviewer.png -t $FLATPAK_DEST/share/icons/hicolor/128x128/apps
+      - install -Dm644 io.qt.qdbusviewer.desktop -t $FLATPAK_DEST/share/applications
+      - install -Dm644 io.qt.qdbusviewer.metainfo.xml -t $FLATPAK_DEST/share/metainfo
     sources:
       - type: file
         path: io.qt.qdbusviewer.png
