@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="desktop">
-  <!--Created with jdAppdataEdit 2.1-->
+  <!--Created with jdAppStreamEdit 6.0-->
   <id>io.qt.qdbusviewer</id>
   <name>Qt QDBusViewer</name>
   <summary>Debug D-Bus applications</summary>
@@ -19,6 +19,7 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="6.5" date="2023-04-03" type="stable"/>
     <release version="6.4" date="2022-09-29" type="stable"/>
     <release version="6.3" date="2022-04-12" type="stable"/>
     <release version="6.2.1" date="2021-10-27" type="stable"/>
