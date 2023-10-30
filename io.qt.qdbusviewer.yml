@@ -1,6 +1,6 @@
 app-id: io.qt.qdbusviewer
 runtime: org.kde.Sdk
-runtime-version: "6.5"
+runtime-version: "6.6"
 sdk: org.kde.Sdk
 command: qdbusviewer
 finish-args:
