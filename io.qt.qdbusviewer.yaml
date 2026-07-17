@@ -1,6 +1,6 @@
 id: io.qt.qdbusviewer
 runtime: org.kde.Sdk
-runtime-version: "6.9"
+runtime-version: "6.11"
 sdk: org.kde.Sdk
 command: qdbusviewer
 finish-args:
@@ -12,7 +12,7 @@ finish-args:
   - --share=ipc
 
 modules:
-  - name: linguist
+  - name: qdbusviewer
     buildsystem: simple
     build-commands:
       - mkdir -p $FLATPAK_DEST/bin
